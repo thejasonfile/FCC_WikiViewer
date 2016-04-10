@@ -1,4 +1,5 @@
 .searchresult {
 	border: 1px solid black;
 	background: lightblue;
+	padding: 10px;
 }
