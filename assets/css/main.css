@@ -1,0 +1,90 @@
+body {
+	font-family: Helvtica, sans-serif;
+	background: url("../img/question-marks-background.jpg");
+}	
+
+a,
+a:hover,
+a:visited {
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0 auto;
+	margin-top: 1em;
+	text-align: center;
+	color: #337ab7;
+	background-color: lightblue;
+	padding: 10px 0;
+	width: 70%;
+}
+
+h1,
+h4 {
+	font-weight: bold;
+}
+
+p {
+	font-size: 18px;
+}
+
+.form-group {
+	margin-top: 1.4em;
+	text-align: center;
+}
+
+h1,
+#search,
+button,
+.searchresult {
+	box-shadow: 4px 4px 5px #c7c7c7;
+	border-radius: 15px;
+}
+
+#search {
+	margin-right: 3em;
+	width: 50%;
+	height: 3em;
+	padding: 0.2em 0.2em 0.2em 1em;
+	font-size: 1.2em;
+}
+
+span {
+	margin: 0 0.4em;
+}
+
+.searchresult {
+	border: 1px solid black;
+	background: lightblue;
+	padding: 10px;
+	margin: 2px 0;
+	display: none;
+}
+
+.noshow {
+	display: none;
+}
+
+
+@media screen and (max-width: 670px) {
+	.glyphicon {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 494px) {
+	h1 {
+		width: 90%;
+	}
+
+	h4,
+	p {
+		text-align: center;
+	}
+
+	#search {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 0.8em;
+	}
+}
